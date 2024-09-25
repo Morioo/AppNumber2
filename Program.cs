@@ -142,6 +142,7 @@ public class Program                            //start point
 
 
         Console.WriteLine("Zmieniam kolor pierwszej żarówki na żółty:");
+
         zarzadzanie.ZmienKolorZarowki(zarowka1, "żółty");
 
 
@@ -150,6 +151,7 @@ public class Program                            //start point
 
 
         Console.WriteLine("Zmieniam stan pierwszej żarówki ponownie:");
+
         zarzadzanie.ZmienStanZarowki(zarowka1);                     // off first 
 
 
@@ -158,6 +160,8 @@ public class Program                            //start point
 
 
         Console.WriteLine("Zmieniam stan drugiej żarówki ponownie:");
+
+
         zarzadzanie.ZmienStanZarowki(zarowka2); // off second
     }
 
